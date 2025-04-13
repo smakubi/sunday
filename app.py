@@ -8,3 +8,7 @@ st.header("One", divider=True)
 st.header("Two", divider=True)
 st.header("Three", divider=True)
 st.header("Four", divider=True)
+
+prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
