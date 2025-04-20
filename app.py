@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("My App")
+st.title("Sunday App")
 
 prompt = st.chat_input("Say something")
 if prompt:
